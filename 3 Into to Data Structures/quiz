@@ -1,0 +1,24 @@
+
+#braket notations
+"""
+my_string = "zebra"
+print(my_string[0])
+print()
+colors = {"000000": "black", "ffffff": "white", "dc143c": "crimson"}
+print(colors["dc143c"])
+print()
+my_string = "zebra"
+my_string[0] = "d"
+print()
+my_set = {1, 2, 3, 4, 5}
+print(my_set[1])
+"""
+#dictionary
+#userprofile=["username":"jdoe"]        dk
+#userprofile={username:"jdoe"}          no
+#username["userprofile"]="jdoe"         dk prob?
+#userprofile=["username":"jdoe"]        no
+
+
+my_string = "Nucamp"
+print(my_string[3:5])

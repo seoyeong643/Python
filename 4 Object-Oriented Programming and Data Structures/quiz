@@ -1,0 +1,12 @@
+
+class Bird:
+    def __init__(self, name, can_fly):
+        self.name = name
+        self.can_fly = can_fly
+# valid syntax for instantiating an object from this class?
+# bird = Bird(self, "ostrich", False)
+bird = Bird("ostrich", False)
+# bird = Bird(self, ostrich, False)
+# bird = Bird(ostrich, False)
+is_tired = True
+print("You need to get some sleep" if is_tired else "You are fully rested")
